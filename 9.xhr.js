@@ -75,3 +75,11 @@ httpRequestPromise('http://....', 'GET')
 .catch(function(error) {
   //...
 })
+
+// fetch API
+fetch('http://...', {
+  method: 'GET',
+  // ...
+})
+.then(data => console.log(data))
+.then(error => console.error(error))
